@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* google font */
-.font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
 
 header {
     padding-top: 16px;
@@ -50,3 +45,136 @@ nav .menu a{
     font-weight: 600;
     cursor: pointer;
 }
+
+.btn-s {
+    background-color: #30b868;
+    color: white;
+    padding: 16.5px ;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.btn-p {
+    background: transparent;
+    color: white;
+    padding: 16.5px ;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.c-g{
+    color: #30B868;
+}
+
+#banner {
+    position: relative;
+    height: 674px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 24px;
+    padding: 115.5px 120px 179.5px 120px;
+    
+}
+
+.banner-content {
+    max-width: 650px;
+    text-align: center;
+}
+
+#banner .banner-content .h {
+    font-size: 16px;
+    color: #30B868;
+    border-radius: 1000px;
+    background-color: white;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 700px;
+    margin: 16px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: white;
+}
+
+/* notes */
+
+#notes {
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+#notes h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#notes p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.hero .hero-card {
+    padding: 69.5px 24px;
+    max-width: 274px;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 #00000027;
+}
+
+.hero-card img {
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+    padding: 15px;
+}
+
+.hero-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+
+}
+
+.hero-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+
+}
+
