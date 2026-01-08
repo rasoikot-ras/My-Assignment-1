@@ -196,11 +196,6 @@ nav .menu a{
     justify-self: center;
 }
 
-.s-image img {
-    max-width: 100%;
-    height: auto;
-}
-
 .s-content {
     text-align: left;
 }
@@ -221,5 +216,23 @@ nav .menu a{
 
 .s-content p {
     font-size: 16px;
-    
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
 }
+
+.select-list {
+    list-style: none;
+    padding: 0;
+}
+
+.select-list li {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
