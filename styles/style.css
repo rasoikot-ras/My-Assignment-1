@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* inter font */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 
 header {
     padding-top: 16px;
@@ -33,6 +38,11 @@ nav .menu a{
     text-decoration: none;
 }
 
+nav .menu a:hover {
+    background-color: gray;
+    color: white;
+}
+
        /* button style */
 
 .btn-n {
@@ -44,6 +54,11 @@ nav .menu a{
     border: none;
     font-weight: 600;
     cursor: pointer;
+}
+
+.btn-n:hover {
+    color: black;
+    background-color: aquamarine;
 }
 
 .btn-s {
@@ -59,6 +74,11 @@ nav .menu a{
     margin-right: 8px;
 }
 
+.btn-s:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
 .btn-p {
     background: transparent;
     color: white;
@@ -70,6 +90,11 @@ nav .menu a{
     cursor: pointer;
     display: inline-flex;
     margin-left: 8px;
+}
+
+.btn-p:hover {
+    color: green;
+    background-color: beige;
 }
 
 .c-g{
@@ -302,6 +327,7 @@ nav .menu a{
 
 a:hover {
     color: aqua;
+    background-color: black;
 }
 
 .copyright {
