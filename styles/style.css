@@ -236,3 +236,37 @@ nav .menu a{
     margin-bottom: 16px;
 }
 
+#more {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.more-card {
+   background-color: #F7F6F2;
+   border-radius: 12px;
+   text-align: center;
+   width: 85%;
+   max-width: 1360px;
+   padding: 80px 40px;
+}
+
+.more-card h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.more-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.more-card .f-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
