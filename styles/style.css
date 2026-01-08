@@ -127,18 +127,13 @@ nav .menu a{
     text-align: center;
 }
 
-.notes-container {
-    width: 85%;
-    max-width: 1360px;
-}
-
-#notes h2 {
+.notes-container h2 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
-#notes p {
+.notes-container p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
@@ -194,4 +189,37 @@ nav .menu a{
     display: flex;
     align-items: center;
     gap: 60px;
+}
+
+.s-image {
+    display: flex;
+    justify-self: center;
+}
+
+.s-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.s-content {
+    text-align: left;
+}
+
+.solu {
+    font-size: 16px;
+    line-height: 20px;
+    color: #30B868;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.s-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.s-content p {
+    font-size: 16px;
+    
 }
