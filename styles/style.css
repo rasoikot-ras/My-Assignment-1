@@ -56,7 +56,7 @@ nav .menu a{
     font-weight: 600;
     cursor: pointer;
     display: inline-flex;
-    gap: 16px;
+    margin-right: 8px;
 }
 
 .btn-p {
@@ -69,7 +69,7 @@ nav .menu a{
     font-weight: 600;
     cursor: pointer;
     display: inline-flex;
-    gap: 16px;
+    margin-left: 8px;
 }
 
 .c-g{
@@ -92,7 +92,8 @@ nav .menu a{
 }
 
 .banner-content {
-    max-width: 650px;
+    width: 85%;
+    max-width: 1360px;
     text-align: center;
 }
 
@@ -124,7 +125,11 @@ nav .menu a{
 #notes {
     padding-top: 80px;
     text-align: center;
+}
 
+.notes-container {
+    width: 85%;
+    max-width: 1360px;
 }
 
 #notes h2 {
@@ -178,3 +183,15 @@ nav .menu a{
 
 }
 
+#solution {
+    padding: 120px;
+}
+
+.solution-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
